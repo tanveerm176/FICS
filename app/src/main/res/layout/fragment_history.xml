@@ -10,7 +10,6 @@
         android:id="@+id/text_history"
         android:text="History"
         android:textAllCaps="true"
-        android:textColor="@color/black"
         android:textAlignment="center"
         android:textSize="30sp"
 
