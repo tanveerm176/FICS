@@ -1,13 +1,13 @@
-package com.example.fics.ui.notifications
+package com.example.fics.ui.welcome
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 
-class NotificationsViewModel : ViewModel() {
+class WelcomeViewModel : ViewModel() {
 
     private val _text = MutableLiveData<String>().apply {
-        value = "This is notifications Fragment"
+        value = "This is Welcome Fragment"
     }
     val text: LiveData<String> = _text
 }

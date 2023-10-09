@@ -3,23 +3,29 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/navigation_home">
+    app:startDestination="@+id/navigation_welcome">
 
     <fragment
-        android:id="@+id/navigation_home"
-        android:name="com.example.fics.ui.home.HomeFragment"
-        android:label="@string/title_home"
-        tools:layout="@layout/fragment_home" />
+        android:id="@+id/navigation_welcome"
+        android:name="com.example.fics.ui.welcome.WelcomeFragment"
+        android:label="@string/title_welcome"
+        tools:layout="@layout/fragment_welcome" />
 
     <fragment
-        android:id="@+id/navigation_dashboard"
-        android:name="com.example.fics.ui.dashboard.DashboardFragment"
-        android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_dashboard" />
+        android:id="@+id/navigation_simulator"
+        android:name="com.example.fics.ui.simulator.SimulatorFragment"
+        android:label="@string/title_simulator"
+        tools:layout="@layout/fragment_simulator" />
 
     <fragment
-        android:id="@+id/navigation_notifications"
-        android:name="com.example.fics.ui.notifications.NotificationsFragment"
-        android:label="@string/title_notifications"
-        tools:layout="@layout/fragment_notifications" />
+        android:id="@+id/navigation_glossary"
+        android:name="com.example.fics.ui.glossary.GlossaryFragment"
+        android:label="@string/title_glossary"
+        tools:layout="@layout/fragment_glossary" />
+
+    <fragment
+        android:id="@+id/navigation_history"
+        android:name="com.example.fics.ui.history.HistoryFragment"
+        android:label="@string/title_history"
+        tools:layout="@layout/fragment_history" />
 </navigation>
