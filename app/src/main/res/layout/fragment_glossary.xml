@@ -19,7 +19,7 @@
         android:textAllCaps="true"
         android:textSize="30sp"
 
-        app:layout_constraintBottom_toTopOf="@id/glossaryRV"
+        app:layout_constraintBottom_toTopOf="@id/glossaryRv"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -27,7 +27,7 @@
         app:layout_constraintVertical_bias="0.028" />
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/glossaryRV"
+        android:id="@+id/glossaryRv"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
